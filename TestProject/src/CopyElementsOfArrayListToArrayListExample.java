@@ -4,6 +4,11 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
  
+/**
+ * Collection program to copy elements from arraylist to other arraylist.
+ * @author inskadam20
+ * Date - 8/10/2015
+ */
 public class CopyElementsOfArrayListToArrayListExample {
  
   public static void main(String[] args) {
