@@ -1,6 +1,10 @@
 
 public class IsPerfectNumber {
-
+	
+	/**
+	 * This method will check whether number is perfect or not. 	
+	 * @param number - number which needs to be checked.
+	 */
 	public void isPerfectNumber(int number) {
 
 		int temp = 0;
@@ -17,6 +21,11 @@ public class IsPerfectNumber {
 
 	}
 
+	/**
+	 * This method will check whether number is Armstrong number or not.
+	 * @param number - number which needs to be checked.
+	 * @return - true if number is Armstrong else false.
+	 */
 	public boolean isArmstrongNumber(int number) {
 		int tmp = number;
 		int noOfDigits = String.valueOf(number).length();
